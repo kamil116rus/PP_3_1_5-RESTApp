@@ -25,7 +25,7 @@ public class CreateUsers implements CommandLineRunner {
     public void run(String... args) throws Exception {
 
 //        // логин = user пароль = user
-        User user1 = new User("user", "$2a$10$Gl1MQdTz/3YNoWdgOoejbueZXKUX5SeE1/4G0cgOYP.RGwNmGHSMq", 10, "user", "user");
+        User user1 = new User("user", "user", 10, "user", "user");
 //        // логин = admin@mail.ru пароль = admin
         User admin1 = new User("admin@mail.ru", "admin", 26, "admin", "admin");
         Set<Role> roleTwo = new HashSet<>();
